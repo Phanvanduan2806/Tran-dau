@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.td-container {
+  background-color: #1B294B;
+  background: #03356E;
+  /* Dark blue background */
+  color: white;
+  padding: 20px 20px 50px 20px;
+}
+@media (max-width: 550px) {
+  .td-container {
+    padding: 30px 10px;
+  }
+}
+.td-container .row {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.td-container .row.row-title {
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.td-container .row.row-team {
+  justify-content: space-between;
+}
+.td-container .td-title {
+  background-color: #12243C;
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+@media (max-width: 550px) {
+  .td-container .td-title {
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+}
+.td-container .td-title .time {
+  margin-left: 1rem;
+  display: inline;
+}
+@media (max-width: 550px) {
+  .td-container .td-title .time {
+    display: block;
+    margin: unset;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+  }
+}
+.td-container .td-info {
+  text-align: center;
+}
+.td-container .td-time {
+  font-size: 24px;
+  margin-top: 7px;
+}
+.td-container .td-date {
+  font-size: 16px;
+  color: #C0C0C0;
+}
+.td-container .team {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+.td-container .team img {
+  max-height: 100px;
+  width: auto;
+}
+@media (max-width: 550px) {
+  .td-container .team img {
+    max-height: 70px;
+  }
+}
+.td-container .team .team-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+@media (max-width: 550px) {
+  .td-container .team .team-name {
+    font-size: 18px;
+  }
+}
+
+.td-await {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #03356E;
+  margin-top: 0.5rem;
+  padding: 40px;
+}
+.td-await i {
+  font-size: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+.td-await p {
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */
